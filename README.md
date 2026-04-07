@@ -1,4 +1,4 @@
-# adaptive-lm
+# AdaLM
 
 `adaptive-lm` is a research-oriented Python package for adaptive Levenberg-Marquardt-type methods and related second-order optimization algorithms. 
 
