@@ -6,7 +6,7 @@
 
 This repository preserves the original experimental design while improving packaging, metadata, reproducibility support, and English-language documentation.
 
-### Core optimization methods
+### Involved optimization methods
 - `Algorithm1`:Our adaptive LM algorithm(ALM)
 - [`AdaN`]()
 - [`ARC`](https://arxiv.org/abs/xxxx.xxxxx)
