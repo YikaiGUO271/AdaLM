@@ -384,7 +384,7 @@ class ARC(BaseOptimizer):
 
 
 class Algorithm1(BaseOptimizer):
-    """Simplified damped Newton method without line search."""
+    """Adaptive LM method"""
 
     def __init__(self, alpha: float = 0.5, beta: float = 1 / 6, H0: float = 1.0, max_inner_iter: int = 200) -> None:
         super().__init__("ALM")
@@ -456,7 +456,7 @@ class Algorithm1(BaseOptimizer):
 
 
 class SuperUniversalNewton(BaseOptimizer):
-    """Super-universal Newton method with adaptive regularization."""
+    """Super-universal regularized Newton method ."""
 
     def __init__(self, H_0: float = 1.0, alpha: float = 0.75, adaptive_search: bool = True, H_min: float = 1e-5) -> None:
         super().__init__("SUN")
