@@ -2,10 +2,6 @@
 
 `adaptive-lm` is a research-oriented Python package for adaptive Levenberg-Marquardt-type methods and related second-order optimization algorithms. 
 
-## Scope
-
-This repository preserves the original experimental design while improving packaging, metadata, reproducibility support, and English-language documentation.
-
 ### Involved optimization methods
 - `Algorithm1`:Our adaptive LM algorithm(ALM)
 - [`AdaN`](https://doi.org/10.1137/22M1488752): Regularized Newton Method with Global O(1/k2) Convergence (Mishchenko, 2023)
