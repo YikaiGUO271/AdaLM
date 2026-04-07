@@ -16,9 +16,9 @@ This repository preserves the original experimental design while improving packa
 - [`ECME`](https://www.jstor.org/stable/41430942): Expectation–conditional maximization either’algorithm (He & Liu, 2012)
 
 ### Benchmark and statistical models
-- `HighDimRosenbrock`:$f(\boldsymbol{x}) = \sum_{i=1}^{q-1} \left[ 100(x_{i+1} - x_i^2)^2 + (1 - x_i)^2 \right]$
-- `PolytopeFeasibility`:$f(\boldsymbol{x}) & = & \sum_{i=1}^m \left( \boldsymbol{a_i}^\top \boldsymbol{x} - b_i \right)_+^p$
-- `WorstInstancesFunction`:$f(\boldsymbol{x}) & = & \frac{1}{\eta}\sum_{i=1}^{q-1}|x_i-x_{i+1}|^{\eta}+\frac{1}{\mu}|x_q|^{\eta}$
+- `HighDimRosenbrock`
+- `PolytopeFeasibility`
+- `WorstInstancesFunction`
 - `ZakharovFunction`
 - `PowellSingularFunction`
 - `LogSumExpFunction`
