@@ -107,6 +107,3 @@ print("final gradient norm:", optimizer.history["grad_norm"][-1])
 5. Create a GitHub release and attach the files in `dist/`.
 6. Archive the release on Zenodo or another DOI-granting service.
 
-## Backward compatibility
-
-The legacy top-level files (`base.py`, `models.py`, `optimizers.py`, `__init__.py`) are retained as thin compatibility wrappers for local notebook usage.
