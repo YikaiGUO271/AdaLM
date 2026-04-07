@@ -8,9 +8,9 @@ This repository preserves the original experimental design while improving packa
 
 ### Core optimization methods
 - `Algorithm1`:Our adaptive LM algorithm(ALM)
-- [`AdaN`](https://doi.org/10.1007/s10107-006-0706-8)
+- [`AdaN`]()
 - [`ARC`](https://arxiv.org/abs/xxxx.xxxxx)
-- [`CR`](https://arxiv.org/abs/xxxx.xxxxx)
+- [`CR`](https://doi.org/10.1007/s10107-006-0706-8) cubic regularized Newton method(Nesterov & Polyak, 2007)
 - [`SuperUniversalNewton`](https://arxiv.org/abs/xxxx.xxxxx)
 - [`CubicMM`](https://arxiv.org/abs/xxxx.xxxxx)
 - [`ECME`](https://arxiv.org/abs/xxxx.xxxxx)
