@@ -17,9 +17,9 @@ This repository preserves the original experimental design while improving packa
 
 ### Benchmark and statistical models
 - `HighDimRosenbrock`
-- \begin{eqnarray*}
+- $
     f(\boldsymbol{x}) = \sum_{i=1}^{q-1} \left[ 100(x_{i+1} - x_i^2)^2 + (1 - x_i)^2 \right], \quad \forall \bx \in \mathbb{R}^q
-  \end{eqnarray*}
+  $
 - `PolytopeFeasibility`
 - `WorstInstancesFunction`
 - `ZakharovFunction`
