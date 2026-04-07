@@ -69,7 +69,6 @@ solution = optimizer.optimize(
 print("final loss:", model.loss(solution))
 print("final gradient norm:", optimizer.history["grad_norm"][-1])
 ```
-
 ## Repository layout
 
 ```text
@@ -81,7 +80,7 @@ print("final gradient norm:", optimizer.history["grad_norm"][-1])
 ├── pyproject.toml
 ├── src/
 │   └── adaptive_lm/
-│       ├── Experiments.ipynb
+│       ├── Experiments.ipynb           # 📘 Sample experiment results in the paper
 │       ├── __init__.py
 │       ├── base.py
 │       ├── models.py
@@ -89,6 +88,7 @@ print("final gradient norm:", optimizer.history["grad_norm"][-1])
 └── test/
     └── test_smoke.py
 ```
+
 
 ## Reproducibility and archival notes
 
