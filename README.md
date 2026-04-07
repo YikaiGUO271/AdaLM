@@ -12,7 +12,7 @@ This repository preserves the original experimental design while improving packa
 - [`ARC`](https://doi.org/10.1007/s10107-009-0286-5): Adaptive regularization with cubics (Cartis et,al, 2011)
 - [`CR`](https://doi.org/10.1007/s10107-006-0706-8): Cubic regularized Newton method(Nesterov & Polyak, 2007)
 - [`SUN`](https://doi.org/10.1137/22M1519444): Super universal regularized Newton method(Dokiov et.al, 2024)
-- [`CubicMM`](https://arxiv.org/abs/xxxx.xxxxx): MM algorithm with cubic surrogate (Landeros et,al, 2023)
+- [`CubicMM`](https://doi.org/10.1073/pnas.2303168120): MM algorithm with cubic surrogate (Landeros et,al, 2023)
 - [`ECME`](https://arxiv.org/abs/xxxx.xxxxx):
 
 ### Benchmark and statistical models
