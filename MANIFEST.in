@@ -1,9 +1,4 @@
 include README.md
-include AUTHORS.md
-include CITATION.cff
-include CONTRIBUTING.md
 include LICENSE.md
-include REPRODUCIBILITY.md
-include SIOPT_RELEASE_CHECKLIST.md
 include Experiments.ipynb
 recursive-include tests *.py
