@@ -8,7 +8,7 @@ This repository preserves the original experimental design while improving packa
 
 ### Core optimization methods
 - `Algorithm1`:Our adaptive LM algorithm(ALM)
-- [`AdaN`](https://arxiv.org/abs/xxxx.xxxxx)
+- [`AdaN`](10.1007/s10107-006-0706-8)
 - [`ARC`](https://arxiv.org/abs/xxxx.xxxxx)
 - [`CR`](https://arxiv.org/abs/xxxx.xxxxx)
 - [`SuperUniversalNewton`](https://arxiv.org/abs/xxxx.xxxxx)
