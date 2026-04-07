@@ -17,7 +17,7 @@ This repository preserves the original experimental design while improving packa
 
 ### Benchmark and statistical models
 - `HighDimRosenbrock`:$f(\boldsymbol{x}) = \sum_{i=1}^{q-1} \left[ 100(x_{i+1} - x_i^2)^2 + (1 - x_i)^2 \right]$
-- `PolytopeFeasibility`:$f(\boldsymbol{x}) & = & \sum_{i=1}^m \left( \ba_i^\top \bx - b_i \right)_+^p$
+- `PolytopeFeasibility`:$f(\boldsymbol{x}) & = & \sum_{i=1}^m \left( \boldsymbol{a_i}^\top \boldsymbol{x} - b_i \right)_+^p$
 - `WorstInstancesFunction`:$f(\boldsymbol{x}) & = & \frac{1}{\eta}\sum_{i=1}^{q-1}|x_i-x_{i+1}|^{\eta}+\frac{1}{\mu}|x_q|^{\eta}$
 - `ZakharovFunction`
 - `PowellSingularFunction`
