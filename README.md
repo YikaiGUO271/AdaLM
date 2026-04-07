@@ -1,6 +1,6 @@
 # adaptive-lm
 
-`adaptive-lm` is a research-oriented Python package for adaptive Levenberg-Marquardt-type methods and related second-order optimization algorithms. The repository is organized as an installable package and archival-ready research codebase intended to support a **SIAM Journal on Optimization (SIOPT)** submission workflow.
+`adaptive-lm` is a research-oriented Python package for adaptive Levenberg-Marquardt-type methods and related second-order optimization algorithms. 
 
 ## Scope
 
@@ -86,7 +86,6 @@ print("final gradient norm:", optimizer.history["grad_norm"][-1])
 ├── MANIFEST.in
 ├── README.md
 ├── REPRODUCIBILITY.md
-├── SIOPT_RELEASE_CHECKLIST.md
 ├── pyproject.toml
 ├── Experiments.ipynb
 ├── src/
@@ -115,7 +114,6 @@ Before public release or manuscript submission, the authors should complete the 
 - `CITATION.cff`
 - `LICENSE.md`
 - `REPRODUCIBILITY.md`
-- `SIOPT_RELEASE_CHECKLIST.md`
 
 ## Suggested release workflow
 
